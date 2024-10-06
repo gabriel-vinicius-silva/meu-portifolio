@@ -66,10 +66,33 @@ h2 {
     padding-left: 20px;
 }
 
+/* Projetos */
 .projeto {
+    display: flex;
+    align-items: center;
     margin-bottom: 20px;
 }
 
+.projeto img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 8px; /* Cantos arredondados para a imagem */
+}
+
+.descricao-projeto {
+    flex: 1;
+}
+
+.descricao-projeto h3 {
+    margin-bottom: 10px;
+}
+
+.descricao-projeto p {
+    margin-bottom: 0;
+}
+
+/* Redes Sociais */
 .redes-sociais {
     margin-top: 20px;
     text-align: center; /* Centraliza os ícones */
@@ -90,6 +113,7 @@ h2 {
     transform: scale(1.1);
 }
 
+/* Rodapé */
 footer {
     background-color: #333;
     color: #fff;
