@@ -148,3 +148,38 @@ footer {
 footer p {
     margin: 0;
 }
+
+
+/* Estilos dos serviços */
+.servicos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.servico-card {
+    flex: 1;
+    min-width: 220px;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.servico-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.servico-card h3 {
+    font-size: 1.5em;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.servico-card p {
+    font-size: 1em;
+    color: var(--text-color);
+}
