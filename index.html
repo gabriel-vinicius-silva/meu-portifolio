@@ -18,14 +18,13 @@
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
                 <li><a href="curriculo/curriculo.html" target="_blank">Currículo</a></li>
-
             </ul>
         </nav>
     </header>
 
     <section id="sobre" class="section">
         <h2>Sobre Mim</h2>
-        <p>Olá, sou um desenvolvedor desde muito pequeno, sou apaixonado por programção e , desenvolvo em diversas linguagens e tecnologias como JavaScript, HTML, Typescript  e mais. Adoro trabalhar em projetos desafiadores e criar soluções eficientes para meus clientes.</p>
+        <p>Olá, sou um desenvolvedor desde muito pequeno, sou apaixonado por programação e desenvolvo em diversas linguagens e tecnologias como JavaScript, HTML, Typescript e mais. Adoro trabalhar em projetos desafiadores e criar soluções eficientes para meus clientes.</p>
         <ul class="skills">
             <li>Desenvolvimento Web (HTML, CSS, JavaScript)</li>
             <li>Back-end (JavaScript e JAVA)</li>
@@ -38,7 +37,7 @@
             <img src="img/RafaDoces-projeto.PNG" alt="Imagem do Projeto Rafa Doces">
             <div class="descricao-projeto">
                 <h3>RAFA DOCES</h3>
-                <p>Descrição: Desenvolvi um projeto voluntário para uma confeiteira autonoma local.</p>
+                <p>Descrição: Desenvolvi um projeto voluntário para uma confeiteira autônoma local.</p>
             </div>
         </div>
         <div class="projeto">
@@ -50,10 +49,51 @@
         </div>
     </section>
 
+
+
+    <section class="section" id="servicos">
+        <h2>Serviços</h2>
+        <div class="servicos-container">
+            <div class="servico-card">
+                <h3>🌐 Desenvolvimento de sites para Web</h3>
+                <p>Criação de sites responsivos e modernos com as melhores práticas de UX/UI.</p>
+            </div>
+            <div class="servico-card">
+                <h3>🎮 Criação de Jogos</h3>
+                <p>Desenvolvimento de APIs robustas e escaláveis utilizando Node.js e Java.</p>
+            </div>
+            <div class="servico-card">
+                <h3>🛠️ Manutenção de Sites</h3>
+                <p>Serviços de manutenção, otimização e segurança para websites.</p>
+            </div>
+            <div class="servico-card">
+                <h3>💡 Consultoria Técnica</h3>
+                <p>Consultoria para otimização de processos e melhorias em sistemas.</p>
+            </div>
+            <div class="servico-card">
+                <h3>🎥 Edição de Vídeos</h3>
+                <p>Edito vídeos, tanto shorts (vídeos curtos) quanto vídeos longos.</p>
+            </div>
+        </div>
+    </section>
     <section id="contato" class="section">
         <h2>Contato</h2>
-        <p>Entre em contato comigo através do email: <a href="mailto:gabrieuvinici@gmail.com">gabrieuvinici@gmail.com</a></p>
+        <p>Entre em contato comigo através dos seguintes canais:</p>
+        <form action="mailto:gabrieuvinici@gmail.com" method="post" enctype="text/plain">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+
         <div class="redes-sociais">
+            <p>Ou pelas redes sociais:</p>
             <a href="https://github.com/gabriel-vinicius-silva" target="_blank" title="GitHub">
                 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="32">
             </a>
@@ -64,33 +104,7 @@
                 <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="32">
             </a>
         </div>
-        <section class="section" id="servicos">
-            <h2><i class="fas fa-cogs"></i> Serviços</h2>
-            <div class="servicos-container">
-                <div class="servico-card">
-                    <h3><i class="fas fa-globe"></i> Desenvolvimento de sites para Web</h3>
-                    <p>Criação de sites responsivos e modernos com as melhores práticas de UX/UI.</p>
-                </div>
-                <div class="servico-card">
-                    <h3><i class="fas fa-gamepad"></i> Criação de Jogos</h3>
-                    <p>Desenvolvimento de APIs robustas e escaláveis utilizando Node.js e Java.</p>
-                </div>
-                <div class="servico-card">
-                    <h3><i class="fas fa-wrench"></i> Manutenção de Sites</h3>
-                    <p>Serviços de manutenção, otimização e segurança para websites.</p>
-                </div>
-                <div class="servico-card">
-                    <h3><i class="fas fa-lightbulb"></i> Consultoria Técnica</h3>
-                    <p>Consultoria para otimização de processos e melhorias em sistemas.</p>
-                </div>
-                <div class="servico-card">
-                    <h3><i class="fas fa-video"></i> Edição de Vídeos</h3>
-                    <p>Edito vídeos, tanto shorts (vídeos curtos) quanto vídeos longos.</p>
-                </div>
-            </div>
-        </section>
     </section>
-
     <footer>
         <p>&copy; 2024 - Gabriel Vinícius Da Silva. Todos os direitos reservados.</p>
     </footer>
