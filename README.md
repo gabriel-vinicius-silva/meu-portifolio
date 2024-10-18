@@ -1,3 +1,4 @@
+
 # Meu Portfólio - Gabriel Vinícius
 
 Este é o código-fonte do meu portfólio pessoal, desenvolvido para apresentar meus projetos, habilidades e formas de contato. O site é totalmente responsivo e inclui seções sobre mim, meus projetos, serviços e links para redes sociais.
@@ -40,3 +41,26 @@ O projeto contém imagens representativas dos meus projetos anteriores. Elas est
 ├── script.js           # Arquivo JavaScript (pode ser utilizado para futuras melhorias)
 ├── index.html          # Página principal do portfólio
 └── README.md           # Documento de informações do projeto (este arquivo)
+```
+
+## 🤝 Como Contribuir
+
+Contribuições são sempre bem-vindas! Se você deseja ajudar a melhorar este portfólio, siga estas etapas:
+
+1. **Fork o Repositório**: Faça uma cópia do repositório em sua conta do GitHub.
+2. **Crie uma Branch**: Crie uma nova branch para suas alterações.
+   ```bash
+   git checkout -b nome-da-sua-branch
+   ```
+3. **Faça suas Alterações**: Realize as alterações desejadas.
+4. **Commit suas Alterações**: Salve suas alterações com uma mensagem descritiva.
+   ```bash
+   git commit -m "Descrição das alterações"
+   ```
+5. **Push para o Repositório**: Envie suas alterações para o GitHub.
+   ```bash
+   git push origin nome-da-sua-branch
+   ```
+6. **Abra um Pull Request**: Crie um pull request no repositório original para revisar suas alterações.
+
+Obrigado por considerar contribuir!
